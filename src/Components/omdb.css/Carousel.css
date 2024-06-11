@@ -1,0 +1,109 @@
+
+
+.carss{
+    margin: 0px;
+    background-color: red;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+    } 
+    
+  .sa{
+    display: flex;
+    max-width: 300px;
+  }
+
+  .carousel{
+    max-width: 1200px;
+
+   }
+
+   .slider{
+    background-color: #ffffff0f;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+   }
+  .carousels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .carouselinner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .caruselcontent{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    gap: 20px;
+    width: 50%;
+  }
+
+  .moviename{
+    font-size: 4rem;
+  }
+
+  .carimg{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+   */
+
+  .carouselimg{
+    width: 900px;
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+    transition: filter 0.5s ease-in-out;
+    background-color: red;
+    border-radius: 10px;
+    background-image: url(https://img.cinego.tv/xxrz/1200x600/652/a2/4e/a24e608aebfe81a58a78d82d91742c43/a24e608aebfe81a58a78d82d91742c43.jpg);
+  }
+  
+/*   
+  .carousel:hover .carousel-item {
+    filter: blur(0px); 
+  }
+  
+  .carousel::before,
+  .carousel::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to right, #0000004d, transparent);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel::before {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  
+  .carousel::after {
+    right: 0;
+    transform: translateX(100%);
+  }
+  
+  .carousel:hover::before,
+  .carousel:hover::after {
+    transform: translateX(0);
+  }
+   */
